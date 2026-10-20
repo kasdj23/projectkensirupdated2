@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Pepsi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#home"><img class="logo" src="logo.png" alt="Pepsi"></a>
+  <button class="menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false">&#9776;</button>
+  <nav id="navLinks">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#products">Products</a>
+    <a href="#food">Food Deserves Pepsi</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" id="home" data-view="home">
+    <div class="bubbles"></div>
+    <div>
+      <p class="eyebrow">Ice cold refreshment</p>
+      <h1>Thirsty for <span>more?</span></h1>
+      <p>Bold taste, bright refreshment. Find the Pepsi that fits your moment.</p>
+      <a class="btn" href="#products">See our products</a>
+    </div>
+    <div class="hero-art"><img class="hero-logo" src="logo.png" alt="Pepsi logo"></div>
+  </section>
+
+  <section class="section alt reveal" id="about" data-view="about">
+    <h2>Why Pepsi</h2>
+    <div class="features">
+      <div class="feature"><span>🧊</span><h3>Ice cold</h3><p>Best served chilled, any time of day.</p></div>
+      <div class="feature"><span>🎉</span><h3>For every moment</h3><p>Meals, barkadas, game days, and celebrations.</p></div>
+      <div class="feature"><span>🥤</span><h3>Many flavors</h3><p>From Original to Wild Cherry and Vanilla.</p></div>
+    </div>
+  </section>
+
+  <section class="section" id="story" data-view="about">
+    <h2>Our story</h2>
+
+    <div class="timeline">
+      <article class="tl-item reveal">
+        <span class="tl-year">1893</span>
+        <h3>Origins and Early Development</h3>
+        <p>Pepsi was created in 1893 by Caleb Bradham, a pharmacist in New Bern, North Carolina, who first called it &ldquo;Brad&rsquo;s Drink&rdquo;. Bradham formulated it to aid digestion and boost energy, using ingredients like sugar, vanilla, and kola nuts. In 1898, he renamed it Pepsi-Cola, referencing dyspepsia (indigestion) and the supposed digestive benefits of the drink, although it never contained pepsin. Bradham incorporated the Pepsi-Cola Company in 1902, and by 1904, sales had reached nearly 20,000 gallons, aided by early celebrity endorsements such as racing legend Barney Oldfield.</p>
+      </article>
+
+      <article class="tl-item reveal">
+        <span class="tl-year">1923</span>
+        <h3>Challenges and Revival</h3>
+        <p>Despite early success, Pepsi faced financial instability due to fluctuating sugar prices and the aftermath of World War I, leading Bradham to declare bankruptcy in 1923. The brand was purchased by Charles Guth, president of Loft Candy Company, who reformulated the syrup and leveraged his candy store network to expand distribution. Guth introduced the 12-ounce bottle during the Great Depression, emphasizing value with the &ldquo;Nickel, Nickel&rdquo; jingle, which doubled sales and helped Pepsi gain a foothold against Coca-Cola.</p>
+      </article>
+
+      <article class="tl-item reveal">
+        <span class="tl-year">1940s</span>
+        <h3>Marketing and Cultural Impact</h3>
+        <p>Pepsi became known for innovative marketing, including targeting the African American market in the 1940s with positive portrayals and endorsements, boosting its market share. Iconic slogans like &ldquo;Pepsi-Cola Hits The Spot&rdquo; and celebrity endorsements from figures such as Joan Crawford helped cement its cultural presence. Pepsi also engaged in the famous &ldquo;cola wars&rdquo; with Coca-Cola, including the Pepsi Challenge taste tests and responses to New Coke.</p>
+      </article>
+
+      <article class="tl-item reveal">
+        <span class="tl-year">1965</span>
+        <h3>Global Expansion and Corporate Growth</h3>
+        <p>Pepsi expanded internationally, including a landmark barter deal with the Soviet Union, and continued to grow through acquisitions. In 1965, the Pepsi-Cola Company merged with Frito-Lay, Inc., forming PepsiCo, which later acquired Tropicana (1998) and Quaker Oats (2001), adding brands like Gatorade to its portfolio. Today, PepsiCo operates in over 200 countries, serving more than a billion customers daily, and remains a major player in the global food and beverage industry.</p>
+      </article>
+    </div>
+
+    <div class="stats reveal">
+      <div><strong data-count="133">0</strong>years of taste</div>
+      <div><strong data-count="6">0</strong>flavors here</div>
+      <div><strong data-count="200">0</strong>countries</div>
+    </div>
+
+    <p class="source">Source: <a href="https://en.wikipedia.org/wiki/Pepsi" target="_blank" rel="noopener">Wikipedia</a></p>
+  </section>
+
+  <section class="section products" id="products" data-view="products">
+    <h2>Our products</h2>
+    <div class="product-grid">
+
+      <article class="product-card">
+        <div class="glow"><img src="original.png" alt="Pepsi Original can"></div>
+        <h3>Pepsi Original</h3>
+        <button class="btn pill view">View product</button>
+        <div class="detail" hidden>
+          <h3 class="up">Pepsi</h3>
+          <h4 class="big">Why choose Pepsi?</h4>
+          <p>A bold, refreshing cola with a crisp sweetness and a lively hint of citrus. Pepsi balances classic cola and warm spice notes with bright fizz and a clean, satisfying finish. It tastes best ice cold, straight from the can or bottle.</p>
+          <h4 class="big">Available sizes</h4>
+          <p>7.5 fl oz, 12 fl oz, 16 fl oz, 16.9 fl oz, 20 fl oz, 24 fl oz, 1L, 1.25L, 2L</p>
+          <a class="btn pill" href="#contact">Where to buy</a>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="glow"><img src="pepsizero.png" alt="Pepsi Zero Sugar can"></div>
+        <h3>Pepsi Zero Sugar</h3>
+        <button class="btn pill view">View product</button>
+        <div class="detail" hidden>
+          <h3 class="up">Pepsi Zero Sugar</h3>
+          <h4 class="big">Why choose Pepsi Zero Sugar?</h4>
+          <p>All the bold Pepsi taste you know, with zero sugar and zero calories. Crisp bubbles bring out the classic cola notes, backed by a touch of bright sweetness and a clean, smooth finish. It's full Pepsi flavor without the sugar.</p>
+          <h4 class="big">Available sizes</h4>
+          <p>7.5 fl oz, 12 fl oz, 16 fl oz, 16.9 fl oz, 20 fl oz, 24 fl oz, 1L, 1.25L, 2L</p>
+          <a class="btn pill" href="#contact">Where to buy</a>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="glow"><img src="limezero.png" alt="Pepsi Zero Sugar Lime can"></div>
+        <h3>Pepsi Zero Sugar Lime</h3>
+        <button class="btn pill view">View product</button>
+        <div class="detail" hidden>
+          <h3 class="up">Pepsi Zero Sugar Lime</h3>
+          <h4 class="big">Why choose Pepsi Zero Sugar Lime?</h4>
+          <p>Pepsi Zero Sugar Lime pairs the bold Pepsi taste with a zesty, bright lime twist, all with zero sugar and zero calories. Crisp carbonation carries the cola notes while the citrus adds a clean, tangy kick. It's refreshing, lively, and full of flavor.</p>
+          <h4 class="big">Available sizes</h4>
+          <p>12 fl oz, 16 fl oz, 16.9 fl oz, 20 fl oz, 24 fl oz, 67 fl oz</p>
+          <a class="btn pill" href="#contact">Where to buy</a>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="glow"><img src="wildcherry.png" alt="Pepsi Wild Cherry can"></div>
+        <h3>Pepsi Wild Cherry</h3>
+        <button class="btn pill view">View product</button>
+        <div class="detail" hidden>
+          <h3 class="up">Pepsi Wild Cherry</h3>
+          <h4 class="big">Why choose Pepsi Wild Cherry?</h4>
+          <p>Pepsi Wild Cherry blends a juicy burst of wild cherry flavor with smooth, classic cola for a playful twist on a favorite. Sweet cherry notes sit on top of crisp carbonation and the bold Pepsi taste you know. It's fruity, balanced, and refreshing in every sip.</p>
+          <h4 class="big">Available sizes</h4>
+          <p>12 fl oz, 16 fl oz, 16.9 fl oz, 20 fl oz, 24 fl oz, 67 fl oz</p>
+          <a class="btn pill" href="#contact">Where to buy</a>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="glow"><img src="vanilla.png" alt="Pepsi Vanilla can"></div>
+        <h3>Pepsi Vanilla</h3>
+        <button class="btn pill view">View product</button>
+        <div class="detail" hidden>
+          <h3 class="up">Pepsi Vanilla</h3>
+          <h4 class="big">Why choose Pepsi Vanilla?</h4>
+          <p>Pepsi Vanilla layers a smooth, creamy vanilla flavor over the classic cola taste you know. The sweet vanilla notes mellow the cola's bite, while crisp carbonation keeps every sip bright and refreshing. It's a smooth, balanced twist on a favorite.</p>
+          <h4 class="big">Available sizes</h4>
+          <p>12 fl oz, 16 fl oz, 16.9 fl oz, 20 fl oz, 24 fl oz, 67 fl oz</p>
+          <a class="btn pill" href="#contact">Where to buy</a>
+        </div>
+      </article>
+
+      <article class="product-card">
+        <div class="glow"><img src="throwback.png" alt="Pepsi Throwback can"></div>
+        <h3>Pepsi Throwback</h3>
+        <button class="btn pill view">View product</button>
+        <div class="detail" hidden>
+          <h3 class="up">Pepsi Throwback</h3>
+          <h4 class="big">Why choose Pepsi Throwback?</h4>
+          <p>Pepsi Throwback brings back the classic cola taste made with real sugar, in a retro can that nods to the past. The flavor is crisp and bold, with a clean, smooth finish. It's a nostalgic, refreshing way to enjoy Pepsi.</p>
+          <h4 class="big">Available sizes</h4>
+          <p>12 fl oz, 16 fl oz, 16.9 fl oz, 20 fl oz, 24 fl oz, 67 fl oz</p>
+          <a class="btn pill" href="#contact">Where to buy</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="food-hero" id="food" data-view="food">
+    <div class="food-banner" style="background-image:url('sisig.webp')">
+      <div class="food-title">
+        <span>Food<br>deserves</span>
+        <img src="logo.png" alt="Pepsi">
+      </div>
+    </div>
+    <div class="food-featured">
+      <h2>Featured local Pepsi</h2>
+      <p class="food-sub">Pinoy favorites that taste better with an ice-cold Pepsi.</p>
+      <div class="food-grid">
+        <article class="food-card reveal">
+          <img src="adobo.webp" alt="Chicken adobo">
+          <h3>Adobo</h3>
+          <p>Savory, tangy, garlicky. Pair with Pepsi Original.</p>
+        </article>
+        <article class="food-card reveal">
+          <img src="sisig.webp" alt="Sizzling sisig">
+          <h3>Sizzling Sisig</h3>
+          <p>Crispy and rich. Pair with Pepsi Zero Sugar.</p>
+        </article>
+        <article class="food-card reveal">
+          <img src="lechon-kawali.jpg" alt="Lechon kawali">
+          <h3>Lechon Kawali</h3>
+          <p>Crunchy skin, juicy bite. Pair with Pepsi Wild Cherry.</p>
+        </article>
+        <article class="food-card reveal">
+          <img src="pancit.webp" alt="Pancit">
+          <h3>Pancit</h3>
+          <p>Savory noodles for any celebration. Pair with Pepsi Zero Sugar Lime.</p>
+        </article>
+        <article class="food-card reveal">
+          <img src="kare-kare.webp" alt="Kare-kare">
+          <h3>Kare-Kare</h3>
+          <p>Rich peanut stew with veggies. Pair with Pepsi Vanilla.</p>
+        </article>
+        <article class="food-card reveal">
+          <img src="sinigang.jpg" alt="Sinigang">
+          <h3>Sinigang</h3>
+          <p>Warm, sour, comforting. Pair with Pepsi Throwback.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact" data-view="contact">
+    <div class="contact-inner">
+      <div class="help-left">
+        <img class="help-can" src="original.png" alt="">
+        <h2>We're here to help.</h2>
+        <label class="search">
+          <span class="sr">Search topics</span>
+          <input id="topicSearch" type="search" placeholder="Search for a topic">
+          <span aria-hidden="true">&#128269;</span>
+        </label>
+      </div>
+
+      <div class="topics-card">
+        <div id="topicsView">
+          <h3>Popular topics</h3>
+          <ul class="topic-list">
+            <li><button type="button" data-topic="Where to buy"><span class="ti">📍</span>Where to buy</button></li>
+            <li><button type="button" data-topic="Product questions"><span class="ti">🥤</span>Product questions</button></li>
+            <li><button type="button" data-topic="Ingredients and nutrition"><span class="ti">🥗</span>Ingredients and nutrition</button></li>
+            <li><button type="button" data-topic="Feedback"><span class="ti">💬</span>Feedback</button></li>
+            <li><button type="button" data-topic="Other"><span class="ti">❓</span>Other</button></li>
+          </ul>
+          <p class="no-topic" id="noTopic" hidden>No matching topics. Try a different word.</p>
+        </div>
+
+        <form class="form" id="contactForm" hidden novalidate>
+          <button type="button" class="back" id="backBtn">&larr; Back to topics</button>
+          <h3>Topic: <span id="formTopic"></span></h3>
+          <input id="name" name="name" type="text" placeholder="Your name" autocomplete="name">
+          <input name="email" type="email" placeholder="Your email" autocomplete="email">
+          <textarea name="message" rows="4" placeholder="Your message"></textarea>
+          <button class="btn pill" type="submit">Send message</button>
+          <p class="form-msg" id="formMsg" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>&copy; <span id="year"></span> Pepsi fan website. Not affiliated with PepsiCo.</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top">&uarr;</button>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+  <div class="modal-box">
+    <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+    <div class="product">
+      <div class="product-media"><img id="modalImg" src="" alt=""></div>
+      <div class="product-info" id="modalInfo"></div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
